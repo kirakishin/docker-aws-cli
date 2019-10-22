@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM docker:dind
 RUN apk -v --update add \
         python \
         py-pip \

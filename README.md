@@ -1,6 +1,7 @@
-# AWS CLI in Docker
+# AWS CLI in Docker with Docker
 
-Containerized AWS CLI on alpine to avoid requiring the aws cli to be installed on CI machines.
+Containerized AWS CLI to avoid requiring the aws cli to be installed on CI machines.
+Docker is also installed inside this image and allow docker-in-docker CI pipelines.
 
 ## Build
 
